@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //引用头布局
+            $('.header').load('../html/header.html');
+            //引用脚布局
+            $('.footer').load('../html/footer.html');
+            //鼠标在swiper-slide上停止轮播
+            $('.img_banner').mouseenter(function () {
+                swiper.autoplay.stop();
+            })
+            //鼠标离开swiper-slide开始轮播
+            $('.img_banner').mouseleave(function () {
+                swiper.autoplay.start();
+            })
+            $('.zd_bk').mouseenter(function () {
+                myswiper.autoplay.stop();
+            })
+            //鼠标离开swiper-slide开始轮播
+            $('.zd_bk').mouseleave(function () {
+                myswiper.autoplay.start();
+            })
+            $('.d_ys').mouseenter(function () {
+                swiper2.autoplay.stop();
+            })
+            //鼠标离开swiper-slide开始轮播
+            $('.d_ys').mouseleave(function () {
+                swiper2.autoplay.start();
+            })
+        });
+    </script>
+</head>
+<body>
+<!--头布局-->
+<div class="header"></div>
+<!--banner轮播图-->
+<div class="swiper-container sc-banner">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img class="img_banner" src="../images/banner_01.jpg" width="100%" height="100%">
+        </div>
+        <div class="swiper-slide">
+            <img class="img_banner" src="../images/banner_02.jpg" width="100%" height="100%">
+        </div>
+        <div class="swiper-slide">
+            <img class="img_banner" src="../images/banner_03.jpg" width="100%" height="100%">
+        </div>
+        <div class="swiper-slide">
+            <img class="img_banner" src="../images/banner_04.jpg" width="100%" height="100%">
+        </div>
+        <div class="swiper-slide">
+            <img class="img_banner" src="../images/banner_05.jpg" width="100%" height="100%">
+        </div>
+        <div class="swiper-slide">
+            <img class="img_banner" src="../images/banner_06.jpg" width="100%" height="100%">
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<script src="../js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.sc-banner', {
+        direction: 'vertical',
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 3000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+    });
+</script>
+<!--精品推荐-->
+<div class="home-title">
+    <p class="home-title-ch">精品推荐</p>
+    <p class="home-title-en">COLLEN REFERENCES</p>
+</div>
+<div class="swiper-container sc-jptj" style="width: 1200px;height: 330px;margin: 10px auto;">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="zd_bk">
+                <img src="../images/2-1Q20QF32MP.gif" class="zd_img">
+                <p class="zd_title">大清铜币（鄂）字版</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-08</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="zd_bk">
+                <img src="../images/2-1Q20QF245913.gif" class="zd_img">
+                <p class="zd_title">中华民国开国纪念币</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-08</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="zd_bk">
+                <img src="../images/2-1Q20QF119416.gif" class="zd_img">
+                <p class="zd_title">云南省造光绪元宝</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-08</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="zd_bk">
+                <img src="../images/2-1Q20QF031B8.gif" class="zd_img">
+                <p class="zd_title">宣统三年大清银币</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-08</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="zd_bk">
+                <img src="../images/2-1Q20QA933U7.gif" class="zd_img">
+                <p class="zd_title">宣统三年大清银币</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-08</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="zd_bk">
+                <img src="../images/2-1Q20QAT34X.gif" class="zd_img">
+                <p class="zd_title">中华民国开国纪念币</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-08</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="zd_bk">
+                <img src="../images/2-1Q2061Q312V7.gif" class="zd_img">
+                <p class="zd_title">福禄寿粉彩人物像</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-09</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="zd_bk">
+                <img src="../images/2-1Q2061Q21ET.gif" class="zd_img">
+                <p class="zd_title">中华民国三年银元</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-06</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var myswiper = new Swiper('.sc-jptj', {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        autoplay: {
+            delay: 3000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+    });
+</script>
+<!--天外飞石-->
+<div class="home-title">
+    <p class="home-title-ch">天外飞石</p>
+    <p class="home-title-en">OUTER SLUNGSHOT</p>
+</div>
+<div class="swiper-container sc-twfs" style="width: 1200px;height: 330px;margin: 10px auto;">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="d_ys">
+                <img src="../images/2-1Q203102IG29.gif" class="zd_img">
+                <p class="zd_title">玻璃陨石</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-12</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="d_ys">
+                <img src="../images/2-1Q11G64034c8.gif" class="zd_img">
+                <p class="zd_title">橄榄陨石</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-12</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="d_ys">
+                <img src="../images/2-1Q11G6391O28.gif" class="zd_img">
+                <p class="zd_title">陨石</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-12</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="d_ys">
+                <img src="../images/2-1Q11G63246342.gif" class="zd_img">
+                <p class="zd_title">陨石夜明珠</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-12</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="d_ys">
+                <img src="../images/2-1Q115155300552.gif" class="zd_img">
+                <p class="zd_title">铁陨石</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-12</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="d_ys">
+                <img src="../images/2-1Q1091156354J.gif" class="zd_img">
+                <p class="zd_title">玻璃陨石</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-12</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="d_ys">
+                <img src="../images/2-1Q105142634510.gif" class="zd_img">
+                <p class="zd_title">石铁陨石一组</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-12</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="d_ys">
+                <img src="../images/2-1Q02Q44512R1.gif" class="zd_img">
+                <p class="zd_title">玻璃陨石</p>
+                <div class="zd_sanH">
+                    <p>委托价：咨询价</p>
+                    <p>发布期：2018-12-12</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var swiper2 = new Swiper('.sc-twfs', {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        autoplay: {
+            delay: 3000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+    });
+</script>
+<!--线下活动-->
+<div class="home-title">
+    <p class="home-title-ch">线下活动</p>
+    <p class="home-title-en">OFF-LINE ACTIVITY</p>
+</div>
+<div class="rmcp" style="width: 1200px;margin:10px auto;overflow: hidden;">
+    <div class="bd">
+        <ul class="picList">
+            <li>
+                <img class="pl_img" src="../images/2-1PF3161605354.jpg"></a>
+            </li>
+            <li>
+                <img class="pl_img" src="../images/1-1P2031250340-L.jpg"></a>
+            </li>
+            <li>
+                <img class="pl_img" src="../images/1-1P2031250220-L.jpg"></a>
+            </li>
+            <li>
+                <img class="pl_img" src="../images/1-1P2031250040-L.jpg"></a>
+            </li>
+            <li>
+                <img class="pl_img" src="../images/1-1P2031249390-L.jpg"></a>
+            </li>
+            <li>
+                <img class="pl_img" src="../images/1-1P2030104590-L.jpg"></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(".rmcp").slide({mainCell: ".bd ul", autoPlay: true, effect: "leftMarquee", vis: 4, interTime: 50});
+</script>
+<!--成交记录-->
+<div class="home-title">
+    <p class="home-title-ch">成交记录</p>
+    <p class="home-title-en">BID HISTORY</p>
+</div>
+<div class="txtMarquee-top">
+    <div style="width: 1200px;height: 50px;background: #5C6479;">
+        <table>
+            <tr>
+                <th>拍品号</th>
+                <th>藏品名称</th>
+                <th>类型</th>
+                <th>起拍价</th>
+                <th>成交价</th>
+            </tr>
+        </table>
+    </div>
+    <div class="bd">
+        <ul>
+            <li>
+                <div class="d_bg1">
+                    <table>
+                        <tr>
+                            <td>Lot 10210100</td>
+                            <td>硅木树化玉</td>
+                            <td>杂项</td>
+                            <td>10,399,000（人民币）</td>
+                            <td>11,120,000（人民币）</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="d_bg2">
+                    <table>
+                        <tr>
+                            <td>Lot 10210101</td>
+                            <td>硅木树化玉</td>
+                            <td>杂项</td>
+                            <td>10,399,000（人民币）</td>
+                            <td>11,120,000（人民币）</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="d_bg1">
+                    <table>
+                        <tr>
+                            <td>Lot 10210102</td>
+                            <td>硅木树化玉</td>
+                            <td>杂项</td>
+                            <td>10,399,000（人民币）</td>
+                            <td>11,120,000（人民币）</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="d_bg2">
+                    <table>
+                        <tr>
+                            <td>Lot 10210103</td>
+                            <td>硅木树化玉</td>
+                            <td>杂项</td>
+                            <td>10,399,000（人民币）</td>
+                            <td>11,120,000（人民币）</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="d_bg1">
+                    <table>
+                        <tr>
+                            <td>Lot 10210104</td>
+                            <td>硅木树化玉</td>
+                            <td>杂项</td>
+                            <td>10,399,000（人民币）</td>
+                            <td>11,120,000（人民币）</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="d_bg2">
+                    <table>
+                        <tr>
+                            <td>Lot 10210105</td>
+                            <td>硅木树化玉</td>
+                            <td>杂项</td>
+                            <td>10,399,000（人民币）</td>
+                            <td>11,120,000（人民币）</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="d_bg1">
+                    <table>
+                        <tr>
+                            <td>Lot 10210106</td>
+                            <td>硅木树化玉</td>
+                            <td>杂项</td>
+                            <td>10,399,000（人民币）</td>
+                            <td>11,120,000（人民币）</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="d_bg2">
+                    <table>
+                        <tr>
+                            <td>Lot 10210107</td>
+                            <td>硅木树化玉</td>
+                            <td>杂项</td>
+                            <td>10,399,000（人民币）</td>
+                            <td>11,120,000（人民币）</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="d_bg1">
+                    <table>
+                        <tr>
+                            <td>Lot 10210108</td>
+                            <td>硅木树化玉</td>
+                            <td>杂项</td>
+                            <td>10,399,000（人民币）</td>
+                            <td>11,120,000（人民币）</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="d_bg2">
+                    <table>
+                        <tr>
+                            <td>Lot 10210109</td>
+                            <td>硅木树化玉</td>
+                            <td>杂项</td>
+                            <td>10,399,000（人民币）</td>
+                            <td>11,120,000（人民币）</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(".txtMarquee-top").slide({
+        mainCell: ".bd ul",
+        autoPlay: true,
+        effect: "topMarquee",
+        vis: 6,
+        interTime: 40,
+        trigger: "click"
+    });
+</script>
+<!--脚布局-->
+<div class="footer"></div>
+</body>
+</html>

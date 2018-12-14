@@ -1,0 +1,11 @@
+/*公共样式*/
+body, ul, li, a, p, span {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(../images/gw_bg.jpg) no-repeat;
+}

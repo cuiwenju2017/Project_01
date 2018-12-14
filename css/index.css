@@ -1,0 +1,131 @@
+/*benner轮播图*/
+.swiper-container {
+    min-width: 1200px;
+    height: 440px;
+}
+
+/*精品推荐*/
+.home-title {
+    min-width: 1200px;
+    height: 54px;
+    margin: 20px auto;
+    background: url("../images/title_bg.png") no-repeat center;
+    text-align: center;
+}
+
+.home-title-ch {
+    font-size: 26px;
+    font-family: "微软雅黑 Light";
+    letter-spacing: 2px;
+    color: rgb(61, 42, 2);
+}
+
+.home-title-en {
+    color: #8d6b22;
+}
+
+.zd_bk {
+    background: #9C9C9C;
+    width: 100%;
+    height: 100%;
+}
+
+.zd_bk img:hover {
+    transform: scale(1.3);
+    transition: all 1s;
+}
+
+.zd_bk:hover {
+    background: #000;
+}
+
+.zd_img {
+    width: 230px;
+    height: 230px;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+.zd_title {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 22px;
+    line-height: 25px;
+}
+
+.zd_sanH {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 22px;
+    line-height: 25px;
+}
+
+/*天外飞石*/
+.d_ys {
+    background: #9C9C9C;
+    width: 100%;
+    height: 100%;
+}
+
+.d_ys img:hover {
+    transform: scale(1.3);
+    transition: all 1s;
+}
+
+.d_ys:hover {
+    background: #000;
+}
+
+/*线下活动*/
+.pl_img {
+    width: 320px;
+    height: 200px;
+}
+
+.pl_img:hover {
+    border: 1px solid red;
+}
+
+.bd ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+/*成交记录*/
+.txtMarquee-top {
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+}
+
+.d_bg1 {
+    width: 1200px;
+    height: 50px;
+    background: #DCD9D8;
+}
+
+.d_bg2 {
+    width: 1200px;
+    height: 50px;
+    background: #E9E1D9;
+}
+
+.d_bg1:hover {
+    background: white;
+}
+
+.d_bg2:hover {
+    background: white;
+}
+
+tr th {
+    color: #fff;
+    width: 220px;
+    line-height: 50px;
+}
+
+tr td {
+    width: 220px;
+    line-height: 50px;
+    text-align: center;
+}

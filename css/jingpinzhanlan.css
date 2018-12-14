@@ -1,0 +1,38 @@
+/*精品展览*/
+.img_bg {
+    min-width: 1200px;
+}
+
+.home-title {
+    min-width: 1200px;
+    height: 54px;
+    margin: 80px auto;
+    background: url("../images/title_bg.png") no-repeat center;
+    text-align: center;
+}
+
+.home-title-ch {
+    font-size: 26px;
+    font-family: "微软雅黑 Light";
+    letter-spacing: 2px;
+    color: rgb(61, 42, 2);
+}
+
+.home-title-en {
+    color: #8d6b22;
+}
+
+.pl_img {
+    width: 260px;
+    height: 260px;
+}
+
+.pl_img:hover {
+    transform: scale(1.3);
+    transition: all 1s;
+}
+
+.bd ul li {
+    float: left;
+    margin-right: 20px;
+}

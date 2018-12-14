@@ -1,0 +1,69 @@
+/*官网logo样式*/
+.img_logo {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    float: left;
+}
+
+/*头部标题样式*/
+.d_hader_title {
+    width: 100%;
+    height: 40px;
+    color: #BA2E2B;
+    font-size: 28px;
+    font-family: SimSun;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+/*联系方式*/
+.d_hader_phone {
+    width: 100%;
+    height: 40px;
+    color: #BA2E2B;
+    font-size: 28px;
+    font-family: SimSun;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+/*导航*/
+.nav_top {
+    float: left;
+    margin-left: 50px;
+}
+
+.nav_top {
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    transition-duration: 0.2s;
+}
+
+.nav_top:hover {
+    color: #BD9133;
+    transform: scale(1.1);
+}
+
+/*脚布局*/
+.footer {
+    min-width: 1200px;
+    height: 100px;
+    background-color: #14120f;
+    border-top: #af8f4c solid 3px;
+    text-align: center;
+}
+
+.footer_box {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.w1100 {
+    min-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+}
