@@ -1,4 +1,8 @@
 /*征集范围*/
+.img_bg {
+    min-width: 1200px;
+}
+
 .home-title {
     min-width: 1200px;
     height: 54px;
@@ -19,7 +23,7 @@
 }
 
 .d_zjfw {
-    width: 600px;
+    width: 1200px;
     margin: auto;
     font-size: 20px;
     color: #7C5943;
@@ -30,4 +34,8 @@
 
 .d2 {
     padding-bottom: 80px;
+}
+
+.a_text {
+    margin-left: 300px;
 }

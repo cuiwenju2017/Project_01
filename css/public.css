@@ -5,7 +5,3 @@ body, ul, li, a, p, span {
     list-style: none;
     text-decoration: none;
 }
-
-body {
-    background: url(../images/gw_bg.jpg) no-repeat;
-}

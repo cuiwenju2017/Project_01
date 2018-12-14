@@ -21,3 +21,25 @@
 .home-title-en {
     color: #8d6b22;
 }
+
+.fuwu_six {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+}
+
+.d_fw {
+    background: rgba(82, 83, 86, 0.5);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    bottom: 0;
+    position: absolute;
+}
+
+.fuwu_six ul li {
+    float: left;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+

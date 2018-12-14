@@ -21,33 +21,3 @@
 .home-title-en {
     color: #8d6b22;
 }
-
-.intxt {
-    width: 400px;
-    height: 30px;
-    margin-top: 10px;
-}
-
-.zixun {
-    width: 400px;
-    height: 80px;
-    margin-top: 10px;
-    float: left;
-}
-
-.tijiao {
-    width: 100%;
-    float: left;
-    margin-top: 20px;
-}
-
-.online_list {
-    padding-top: 50px;
-}
-
-.d_form {
-    width: 500px;
-    height: 400px;
-    margin: auto;
-    background-size: 100% 100%;
-}
